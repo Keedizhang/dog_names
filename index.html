@@ -165,7 +165,9 @@ var svg = d3.select("#chart").append("svg")
     .style("display", "block")
     .style("margin", "auto");
 
-d3.csv("https://raw.githubusercontent.com/Kaz-A/dog_names/master/dogNames2.csv", ready);
+// d3.csv("https://raw.githubusercontent.com/Kaz-A/dog_names/master/dogNames2.csv", ready);
+
+d3.csv("https://raw.githubusercontent.com/KeediZhang/dog_names/master/dogNames2.csv", ready);
 
 function ready(error, data) {
 	if (error) throw error;
